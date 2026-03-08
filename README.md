@@ -15,9 +15,9 @@
 > Проект построен на базе консольного перехватчика пакетов `winws.exe` (через сетевой драйвер WinDivert). В отличие от классических VPN-сетей, утилита не маршрутизирует трафик через сторонние удаленные серверы. Инъекция, фрагментация и модификация сетевых пакетов происходят локально на уровне ядра ОС. Данный подход позволяет обходить провайдерские блокировки, сохраняя 100% пропускной способности канала и оригинальный сетевой пинг.
 
 <div align="center">
-  <img width="800" alt="Dashboard" src="https://github.com/user-attachments/assets/d089fe43-1e98-4442-9346-0c6fc32a5a2e" />
-  <img width="800" alt="Settings" src="https://github.com/user-attachments/assets/b6b2b81f-3398-45fc-8570-c20d71e32517" />
-  <img width="800" alt="About" src="https://github.com/user-attachments/assets/d6c527eb-2074-4179-9470-68e4c74b33fc" />
+  <img width="1280" height="914" alt="image" src="https://github.com/user-attachments/assets/fee2a37e-61f3-4647-b54d-481a49f55032" />
+  <img width="1280" height="914" alt="image" src="https://github.com/user-attachments/assets/55c32451-ff78-453e-9748-ca506f1a64e3" />
+  <img width="1280" height="921" alt="image" src="https://github.com/user-attachments/assets/be6a568d-44d8-4a7a-b658-4fc6686b3ae9" />
 </div>
 
 <br>
