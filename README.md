@@ -83,12 +83,14 @@
 **Вариант 1. Локальный запуск (Работает, пока открыто приложение):**
 1. Перейдите во вкладку **SETTINGS**.
 2. Включите **Enable TG Bypass** (запуск на порту 1080).
-3. Нажмите **Apply proxy to Telegram**. Согласитесь на применение в открывшемся Telegram.
+3. Нажмите **Apply proxy to Telegram** Согласитесь на применение в открывшемся Telegram.
+4. Нажмите **Initialise Local Bypass**  можете сворачивать приложение и с удобством наслаждаться
 
 **Вариант 2. Автозапуск и Фоновый режим (Рекомендуется):**
 1. Включите **Enable TG Bypass**.
-2. Нажмите **Install Native Service**.
-3. Программа установит системные службы. Теперь окно можно закрыть на крестик — прокси работает автономно!
+2. Нажмите **Apply proxy to Telegram** Согласитесь на применение в открывшемся Telegram.
+3. Нажмите **Install Native Service**
+4. Программа установит системные службы. Теперь окно можно закрыть на крестик — прокси работает автономно!
 
 ## 🗒️ Добавление адресов прочих ресурсов
 
@@ -124,4 +126,4 @@
 
 [![Contributors](https://contrib.rocks/image?repo=dysonbehind/zapret-discord-youtube)](https://github.com/dysonbehind/zapret-discord-youtube/graphs/contributors)
 
-💖 Отдельная благодарность разработчику [zapret](https://github.com/bol-van/zapret) - [bol-van](https://github.com/bol-van)
+💖 Отдельная благодарность разработчикам за [zapret](https://github.com/bol-van) [tg](https://github.com/Flowseal)
