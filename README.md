@@ -9,15 +9,15 @@
 
 <br>
 
-**Альтернатива консольным утилитам. Аппаратно-ускоренный GUI для обхода DPI блокировок.**
+**An alternative to console utilities. Hardware-accelerated GUI for bypassing DPI restrictions.**
 
-Ускорение Telegram Desktop, YouTube, Discord и полная кастомизация.
+Telegram Desktop, YouTube, Discord acceleration, and full customization.
 
 </div>
 
-> **Zapret Dyson** — это аппаратно-ускоренный графический интерфейс (GUI) и система оркестрации для локального обхода систем глубокого анализа трафика (DPI). 
+> **Zapret Dyson** is a hardware-accelerated Graphical User Interface (GUI) and orchestration system for locally bypassing Deep Packet Inspection (DPI) systems.
 > 
-> В отличие от классических VPN-сетей, утилита не маршрутизирует трафик через сторонние удаленные серверы. Инъекция, фрагментация и модификация сетевых пакетов происходят локально на уровне ядра ОС. Данный подход позволяет обходить провайдерские блокировки, сохраняя 100% пропускной способности канала и оригинальный сетевой пинг.
+> Unlike classic VPN networks, this utility does not route traffic through third-party remote servers. Packet injection, fragmentation, and modification occur locally at the OS kernel level. This approach allows bypassing ISP restrictions while maintaining 100% channel bandwidth and original network ping.
 
 <div align="center">
   <img width="1400" alt="image" src="https://github.com/user-attachments/assets/9b86098c-e7d2-4186-9624-ec83b148d4e0" />
@@ -29,86 +29,86 @@
 <br>
 
 > [!CAUTION]
-> ### ФЕЙКИ
-> Если вы наткнулись на что-то вне этой страницы GitHub м моего Tekegram, что распространяется от моего лица - **ФЕЙК**.
+> ### FAKES
+> If you come across anything outside of this GitHub page and my Telegram distributed on my behalf - it's a **FAKE**.
 
 > [!WARNING]
-> ### АНТИВИРУСЫ И РЕАКЦИЯ СИСТЕМЫ
-> Программа использует драйвер `WinDivert64.sys` для работы с сетью на уровне ядра ОС. Некоторые антивирусы склонны относить файлы WinDivert к классам повышенного риска. При этом детект обязательно имеет название `WinDivert` или `Not-a-virus:RiskTool.Multi.WinDivert`.
+> ### ANTIVIRUS AND SYSTEM REACTION
+> The program uses the `WinDivert64.sys` driver to handle networking at the OS kernel level. Some antiviruses tend to classify WinDivert files as high-risk. The detection will always be named `WinDivert` or `Not-a-virus:RiskTool.Multi.WinDivert`.
 > 
-> Это абсолютно нормальное поведение. WinDivert — легитимный инструмент для перехвата трафика. Добавьте папку с утилитой в исключения антивируса для стабильной работы.
+> This is absolutely normal behavior. WinDivert is a legitimate traffic interception tool. Add the utility folder to your antivirus exclusions for stable operation.
 
 > [!IMPORTANT]
-> ### БЕЗОПАСНОСТЬ БИНАРНЫХ ФАЙЛОВ
-> Весь код начиная с версии v1.9.0 подписывается через `signtool` на этапе Post-Build Event, гарантируя подлинность и целостность исполняемого файла. Количество ложных срабатываний Windows Defender сведено к минимуму (Stealth Mode).
+> ### BINARY FILE SECURITY
+> Starting from version v1.9.0, all code is signed via `signtool` during the Post-Build Event, guaranteeing the authenticity and integrity of the executable. The number of false positive Windows Defender detections has been minimized (Stealth Mode).
 
 ---
 
-## 🔥 Что нового в обновлении v1.9.0
+## 🔥 What's new in v1.9.0 Update
 
 - <ins>**UI & VISUAL REVOLUTION**</ins>
-  - **Полный контроль в трее:** Сворачивание в системный трей с контекстным меню.
-  - **Floating-панель настроек:** Вызывается по клику на шестеренку в хедере, не перекрывая интерфейс.
-  - **Глобальный редизайн:** Плавные анимации (`Slide-In / Slide-Out`), эффект Typewriter в ABOUT, RGB-слайдеры для акцентного цвета.
-  - **Система частиц:** 4 режима фоновой анимации (`Off`, `Snow`, `Matrix`, `FCK RKN`) с мгновенным переключением.
+  - **Full Tray Control:** Minimize to the system tray with a functional context menu.
+  - **Floating Settings Panel:** Summoned by clicking the gear icon in the header, without overlapping the main interface.
+  - **Global Redesign:** Smooth animations (`Slide-In / Slide-Out`), Typewriter effect in the ABOUT section, RGB sliders for accent color.
+  - **Particle System:** 4 background animation modes (`Off`, `Snow`, `Matrix`, `FCK RKN`) with instant switching.
 
 - <ins>**TELEGRAM ACCELERATION & CRYPTOGRAPHY**</ins>
-  - **Native Telegram SOCKS5:** Встроенный сервер на чистом C++ (WinHTTP API) с нулевой нагрузкой на CPU.
-  - **AES-CTR Дешифрация (MTProto):** Аппаратная расшифровка ключей через Windows BCrypt для безошибочной маршрутизации.
-  - **Мгновенный TCP-Fallback:** Автоматическое переключение на Raw TCP-мост при блокировке WebSocket. Никаких «вечных подключений».
-  - **One-Click Setup:** Кнопка автоматического применения прокси прямо в Telegram Desktop.
+  - **Native Telegram SOCKS5:** Built-in server in pure C++ (WinHTTP API) with zero CPU load.
+  - **AES-CTR Decryption (MTProto):** Hardware key decryption via Windows BCrypt for error-free routing.
+  - **Instant TCP-Fallback:** Automatic switch to a Raw TCP bridge when WebSocket is blocked. No more "infinite connecting" statuses.
+  - **One-Click Setup:** Auto-apply proxy button directly to Telegram Desktop.
 
 - <ins>**SYSTEM CORE**</ins>
-  - **Интеллектуальная персистентность:** Автосохранение конфигураций при закрытии и сворачивании.
-  - **Реальный TCP Ping:** Асинхронный пинг без фризов интерфейса.
-  - **Встроенный редактор списков:** Вкладка **LISTS** для управления доменами прямо в GUI.
+  - **Smart Persistence:** Auto-save configurations upon closing or minimizing.
+  - **Real TCP Ping:** Asynchronous ping without UI freezes.
+  - **Built-in List Editor:** A **LISTS** tab for managing domains directly in the GUI.
 
-## 🚀 Архитектура и Оптимизация
+## 🚀 Architecture & Optimization
 
-Проект полностью исключает необходимость использования командных оболочек (CMD/PowerShell) при повседневной эксплуатации.
+The project completely eliminates the need for command shells (CMD/PowerShell) in daily use.
 
-* **Стек технологий:** Разработано на чистом C++ (DirectX 11 + ImGui). Исполняемый файл требует права Администратора (манифест `requireAdministrator`) для работы с WinDivert API.
-* **Smart UI Synchronization:** Интерфейс умеет «общаться» с ядром Windows. При запуске он сканирует активные службы и автоматически восстанавливает статусы и галочки.
-* **Zero-Delay & High-Priority:** Процесс инициализируется с флагом `HIGH_PRIORITY_CLASS`. Потребление CPU в простое — **0%**. Внедрен алгоритм защиты от TCP-фрагментации `ReadExactly`.
+* **Tech Stack:** Developed in pure C++ (DirectX 11 + ImGui). The executable requires Administrator privileges (`requireAdministrator` manifest) to interact with the WinDivert API.
+* **Smart UI Synchronization:** The interface communicates with the Windows kernel. Upon launch, it scans active services and automatically restores statuses and checkboxes.
+* **Zero-Delay & High-Priority:** The process initializes with the `HIGH_PRIORITY_CLASS` flag. Idle CPU usage is **0%**. Implemented the `ReadExactly` algorithm to protect against TCP fragmentation.
 
-## 🛠️ Технический функционал
+## 🛠️ Technical Features
 
-* **Адаптивная фильтрация (Smart Profiles):** 7 преднастроенных векторов атаки на DPI (Classic, Aggressive, Mobile, Failsafe) для разных провайдеров (Ростелеком, Дом.ру, Уфанет, мобильные сети).
-* **Фоновая интеграция (Windows Services):** Бесшовная инсталляция в системные службы. Обход и Telegram Proxy работают невидимо на уровне ОС.
-* **VoIP & Game Mode:** Выделенное правило маршрутизации для портов **1024-65535 (TCP/UDP)**. Предотвращает потерю пакетов в играх и чинит <img src="https://cdn-icons-png.flaticon.com/128/5968/5968756.png" height=14 /> Discord.
-* **Обход DNS-блокировок:** Динамическая подмена заголовков `Host` и `Origin` (SNI Spoofing).
+* **Adaptive Filtering (Smart Profiles):** 7 pre-configured DPI attack vectors (Classic, Aggressive, Mobile, Failsafe) for different ISPs.
+* **Background Integration (Windows Services):** Seamless installation into system services. The bypass and Telegram Proxy run invisibly at the OS level.
+* **VoIP & Game Mode:** Dedicated routing rule for ports **1024-65535 (TCP/UDP)**. Prevents Packet Loss in games and fixes <img src="https://cdn-icons-png.flaticon.com/128/5968/5968756.png" height="14" /> Discord.
+* **DNS Block Bypass:** Dynamic spoofing of `Host` and `Origin` headers (SNI Spoofing).
 
-## ⚙️ Использование: Ускорение Telegram
+## ⚙️ Usage: Telegram Acceleration
 
-**Вариант 1. Локальный запуск (Работает, пока открыто приложение):**
-1. Перейдите во вкладку **SETTINGS**.
-2. Включите **Enable TG Bypass** (запуск на порту 1080).
-3. Нажмите **Apply proxy to Telegram** Согласитесь на применение в открывшемся Telegram.
-4. Нажмите **Initialise Local Bypass**  можете сворачивать приложение и с удобством наслаждаться
+**Option 1. Local execution (Runs while the application is open):**
+1. Go to the **SETTINGS** tab.
+2. Check **Enable TG Bypass** (launches on port 1080).
+3. Click **Apply proxy to Telegram**. Confirm the prompt in the opened Telegram app.
+4. Click **Initialise Local Bypass**, you can now minimize the app and enjoy.
 
-**Вариант 2. Автозапуск и Фоновый режим (Рекомендуется):**
-1. Включите **Enable TG Bypass**.
-2. Нажмите **Apply proxy to Telegram** Согласитесь на применение в открывшемся Telegram.
-3. Нажмите **Install Native Service**
-4. Программа установит системные службы. Теперь окно можно закрыть на крестик — прокси работает автономно!
+**Option 2. Autorun and Background mode (Recommended):**
+1. Check **Enable TG Bypass**.
+2. Click **Apply proxy to Telegram**. Confirm the prompt in the opened Telegram app.
+3. Click **Install Native Service**.
+4. The program will install system services. You can now close the window with the 'X' button — the proxy works autonomously!
 
-## 🗒️ Добавление адресов прочих ресурсов
+## 🗒️ Managing Domain Lists
 
-Управлять списками маршрутизации теперь можно прямо из вкладки **LISTS** в интерфейсе программы.
-Физически текстовые файлы лежат в папке `lists/`:
-- **`list-general.txt`** — для доменов (поддомены учитываются автоматически).
-- **`list-google.txt`** — для специфичных сервисов и исключений.
-- **`list-exclude-user.txt`** / **`ipset-exclude-user.txt`** — для исключения доменов/IP из фильтрации.
+You can now manage routing lists directly from the **LISTS** tab in the program interface.
+Physically, the text files are located in the `lists/` folder:
+- **`list-general.txt`** — for domains (subdomains are included automatically).
+- **`list-google.txt`** — for specific services and exceptions.
+- **`list-exclude-user.txt`** / **`ipset-exclude-user.txt`** — to exclude domains/IPs from filtering.
 
-## 📌 Принципы продукта
+## 📌 Product Principles
 
-1. **Производительность:** Нулевое влияние на базовую задержку сети.
-2. **Изолированность:** Модификация заголовков (SNI, TLS) производится исключительно на локальном ПК без сторонних серверов.
-3. **One-Click Deployment:** Трансформация сложных консольных параметров в интуитивный графический интерфейс.
+1. **Performance:** Zero impact on baseline network latency.
+2. **Isolation:** Header modification (SNI, TLS) is performed exclusively on the local PC without third-party servers.
+3. **One-Click Deployment:** Transforming complex console parameters into an intuitive graphical interface.
 
-## ⭐ Поддержка проекта
+## ⭐ Support the Project
 
-Вы можете поддержать проект, поставив :star: этому репозиторию (сверху справа этой страницы).
+You can support the project by leaving a :star: on this repository (top right of this page).
 
 <a href="https://star-history.com/#dysonbehind/zapret-discord-youtube&Date">
  <picture>
@@ -118,12 +118,16 @@
  </picture>
 </a>
 
-## ⚖️ Лицензирование
+## ⚖️ Licensing & Source Code Note
 
-Проект распространяется на условиях лицензии [MIT](https://github.com/dysonbehind/zapret-discord-youtube/blob/main/LICENSE.txt)
+The project is distributed under the [MIT](https://github.com/dysonbehind/zapret-discord-youtube/blob/main/LICENSE.txt) license.
 
-## 🩷 Благодарность участникам
+> [!NOTE]
+> ### 🔒 Source Code Availability
+> Please note that the source code for the GUI application and the orchestration wrapper is **not provided**. I highly value the time, effort, and resources invested in developing this software, therefore it remains closed-source. Only the compiled executables are available in the releases.
+
+## 🩷 Acknowledgements
 
 [![Contributors](https://contrib.rocks/image?repo=dysonbehind/zapret-discord-youtube)](https://github.com/dysonbehind/zapret-discord-youtube/graphs/contributors)
 
-💖 Отдельная благодарность разработчикам за [zapret](https://github.com/bol-van) [tg](https://github.com/Flowseal)
+💖 Special thanks to the developers of [zapret](https://github.com/bol-van) and [tg](https://github.com/Flowseal).
