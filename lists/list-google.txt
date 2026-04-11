@@ -97,3 +97,6 @@ claude.ai
 claude.com
 vpnkeep.com
 hynet.space
+api.neverlose.cc
+neverlose.cc
+cdn.neverlose.cc
