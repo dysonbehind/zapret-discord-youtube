@@ -1,8 +1,15 @@
 # Zapret Dyson
 <img width="1365" height="768" alt="222" src="https://github.com/user-attachments/assets/e9ecece2-2fdc-4070-b789-189a67f6eadb" />
+
 > [!TIP]
+>
 > ### 🎉 Поддержать меня
-> **Другие монеты**: https://pressf.com/dys0n/donate
+>
+> **USDT (TRC20)**: `TXPnKs2Ww1RD8JN6nChFUVmi5r2hqrWjuu`  
+> **BTC**: `bc1qr8vd6jelkyyry3m4mq6z5txdx4pl856fu6ss0w`  
+> **ETH**: `0x1417878fdc5047E670a77748B34819b9A49C72F1`  
+> **Другие монеты**: https://nowpayments.io/donation/flowseal
+
 **Альтернатива консольным утилитам. Аппаратно-ускоренный GUI для обхода ограничений DPI.**
 
 Ускорение Telegram Desktop, YouTube, Discord и полная кастомизация.
