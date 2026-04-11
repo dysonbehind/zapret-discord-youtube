@@ -1,6 +1,9 @@
 # Zapret Dyson
 <img width="1365" height="768" alt="222" src="https://github.com/user-attachments/assets/e9ecece2-2fdc-4070-b789-189a67f6eadb" />
-
+> [!TIP]
+>
+> ### 🎉 Поддержать меня
+> **Другие монеты**: спасибо заранее!(https://pressf.com/dys0n/donate)
 **Альтернатива консольным утилитам. Аппаратно-ускоренный GUI для обхода ограничений DPI.**
 
 Ускорение Telegram Desktop, YouTube, Discord и полная кастомизация.
