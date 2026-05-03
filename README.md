@@ -33,12 +33,9 @@
 > Начиная с версии v1.9.0, весь код подписывается через `signtool` во время Post-Build Event, что гарантирует подлинность и целостность исполняемого файла. Количество ложных срабатываний Windows Defender сведено к минимуму (Stealth Mode).
 
 ---
-<img width="1280" height="982" alt="image" src="https://github.com/user-attachments/assets/46291b97-0d13-45d6-87c7-f73bcf267165" />
-<img width="1280" height="977" alt="image" src="https://github.com/user-attachments/assets/7ef6f01a-5440-49b7-8eee-1c1e5b700e0c" />
-<img width="1280" height="974" alt="image" src=
 
-<img width="1280" height="980" alt="image" src="https://github.com/user-attachments/assets/fee367af-ce65-4497-b352-58cc589f5d19" />
-<img width="1280" height="980" alt="image" src="https://github.com/user-attachments/assets/38ccfd20-f48e-43fd-b4ed-bb105a01e2b8" />
+
+
 
 
 
