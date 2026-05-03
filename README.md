@@ -33,14 +33,11 @@
 > Начиная с версии v1.9.0, весь код подписывается через `signtool` во время Post-Build Event, что гарантирует подлинность и целостность исполняемого файла. Количество ложных срабатываний Windows Defender сведено к минимуму (Stealth Mode).
 
 ---
-
-
-
-
-
-
-
-
+<img width="1280" height="912" alt="1" src="https://github.com/user-attachments/assets/41a46904-7ff6-41eb-bbba-95eb78eeee0a" />
+<img width="1280" height="913" alt="2" src="https://github.com/user-attachments/assets/38f50f38-4b35-49fa-8b1b-b492fc377a1e" />
+<img width="1280" height="913" alt="3" src="https://github.com/user-attachments/assets/9cfb6264-220e-44ec-9e7b-c10698474b6a" />
+<img width="1280" height="916" alt="4" src="https://github.com/user-attachments/assets/6ac90bb8-db29-447b-897c-a6eab3b23758" />
+<img width="1280" height="916" alt="5" src="https://github.com/user-attachments/assets/c83c2648-42dc-48a7-aaa4-07867a66389e" />
 
 ## ZAPRET CORE: ОБНОВЛЕНИЕ v2.4.3
 
