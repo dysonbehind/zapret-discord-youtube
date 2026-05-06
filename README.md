@@ -39,7 +39,9 @@
 <img width="1280" height="916" alt="4" src="https://github.com/user-attachments/assets/6ac90bb8-db29-447b-897c-a6eab3b23758" />
 <img width="1280" height="916" alt="5" src="https://github.com/user-attachments/assets/c83c2648-42dc-48a7-aaa4-07867a66389e" />
 
-**ZAPRET CORE: UPDATE v2.5.5 — «The Hardening Pass»**
+
+
+## ZAPRET CORE: UPDATE v2.5.5 — «The Hardening Pass»
  
  
 **Основные изменения:**
