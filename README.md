@@ -13,7 +13,7 @@
 <p align="center">Закрытый исходный код · Подписанные бинарные файлы · Нулевая задержка</p>
 
 <p align="center">
-  <a href="https://zapretcore.ru"><b>zapretcore.ru</b></a> &nbsp;│&nbsp; 
+  <a href="[https://zapretcore.ru](https://zapretcore.ru/)"><b>zapretcore.ru</b></a> &nbsp;│&nbsp; 
   <a href="https://github.com/dysonbehind/zapret-discord-youtube/releases"><b>Releases</b></a> &nbsp;│&nbsp; 
   <a href="https://[t.me/zapretcore](https://t.me/wokeupinthemorning)"><b>Telegram</b></a>
 </p>
