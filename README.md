@@ -64,7 +64,7 @@ C++20 / MSVC 2022 / DirectX 11 / Dear ImGui
 
 > [!CAUTION]
 > **Единственные официальные источники:**  
-> GitHub — [zapretcore/zapret-core](https://github.com/dysonbehind/zapret-discord-youtube)
+> GitHub — [zapret-discord-youtube](https://github.com/dysonbehind/zapret-discord-youtube)
 > Сайт — [zapretcore.ru](https://zapretcore.ru)  
 > Telegram — [@zapretcore](https://t.me/wokeupinthemorning)
 > Всё остальное — **подделка**. Не скачивайте файлы из других источников.
