@@ -13,9 +13,9 @@
 <p align="center">Закрытый исходный код · Подписанные бинарные файлы · Нулевая задержка</p>
 
 <p align="center">
-  <a href="https://zapretcore.ru/"><b>zapretcore.ru</b></a> &nbsp;│&nbsp; 
+  <a href="https://zapretcore.ru/index.html"><b>zapretcore.ru</b></a> &nbsp;│&nbsp; 
   <a href="https://github.com/dysonbehind/zapret-discord-youtube/releases"><b>Releases</b></a> &nbsp;│&nbsp; 
-  <a href="https://[t.me/zapretcore](https://t.me/wokeupinthemorning)"><b>Telegram</b></a>
+  <a href="https://t.me/wokeupinthemorning"><b>Telegram</b></a>
 </p>
 
 ---
@@ -64,9 +64,9 @@ C++20 / MSVC 2022 / DirectX 11 / Dear ImGui
 
 > [!CAUTION]
 > **Единственные официальные источники:**  
-> GitHub — [zapretcore/zapret-core](https://github.com/zapretcore/zapret-core)  
+> GitHub — [zapretcore/zapret-core](https://github.com/dysonbehind/zapret-discord-youtube)
 > Сайт — [zapretcore.ru](https://zapretcore.ru)  
-> Telegram — [@zapretcore](https://t.me/zapretcore)  
+> Telegram — [@zapretcore](https://t.me/wokeupinthemorning)
 > Всё остальное — **подделка**. Не скачивайте файлы из других источников.
 
 > [!IMPORTANT]
@@ -151,7 +151,7 @@ C++20 / MSVC 2022 / DirectX 11 / Dear ImGui
 ---
 
 > [!NOTE]
-> **Исходный код не публикуется.** Распространяются только подписанные скомпилированные бинарные файлы через [Releases](https://github.com/zapretcore/zapret-core/releases). Проект разрабатывается приватно.
+> **Исходный код не публикуется.** Распространяются только подписанные скомпилированные бинарные файлы через [Releases](https://github.com/dysonbehind/zapret-discord-youtube). Проект разрабатывается приватно.
 
 ---
 
