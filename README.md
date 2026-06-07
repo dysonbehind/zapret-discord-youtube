@@ -756,7 +756,7 @@ DPI-обход и HOSTS работают на разных уровнях. HOSTS
 <br>
 
 <p align="center">
-  <a href="https://pressf.com/dys0n/donate"><img src="https://img.shields.io/badge/ПОДДЕРЖАТЬ%20ПРОЕКТ-white?style=for-the-badge" alt="Donate" /></a>
+  <a href="https://tips.tips/ru/000474682"><img src="https://img.shields.io/badge/ПОДДЕРЖАТЬ%20ПРОЕКТ-white?style=for-the-badge" alt="Donate" /></a>
 </p>
 
 <p align="center">
